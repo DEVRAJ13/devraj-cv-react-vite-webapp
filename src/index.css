@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small color transition helper */
+:root { --page-bg: #ffffff; --page-text: #0f172a; }
+.dark { --page-bg: #0b1220; --page-text: #e6eef8; }
+body { background: var(--page-bg); color: var(--page-text); transition: background-color .25s, color .25s; }

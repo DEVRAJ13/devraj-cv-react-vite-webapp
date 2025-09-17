@@ -1,0 +1,110 @@
+export default {
+  name: "Devraj Thakur",
+  title: "Full-Stack Developer",
+  location: "New Delhi, Delhi, India",
+  email: "devrajthakur2047@gmail.com",
+  phone: "+91 8988475091",
+  linkedin: "https://www.linkedin.com/in/devraj-thakur",
+  github: "https://github.com/DEVRAJ13",
+  summary:
+    "Highly motivated and performance-driven software professional with 9+ years of experience in full-stack development. Skilled in cloud-based solutions, backend services, frontend frameworks, and mobile app development. Adept at solving complex problems, delivering secure and scalable applications, and contributing to team success.",
+  skills: [
+    "AWS Cloud (Lambda, DynamoDB, S3, SES, Lex, Bedrock, SQS)",
+    "Node.js",
+    "Express.js",
+    "Angular",
+    "React.js (familiar)",
+    "JavaScript",
+    "TypeScript",
+    "Ionic (Hybrid Mobile Apps)",
+    "MySQL, SQLite",
+    "Flask",
+    "Git",
+    "Jira",
+    "HTML5, CSS3",
+  ],
+  experience: [
+    {
+      role: "Assistant Consultant",
+      company: "Tata Consultancy Services Pvt. Ltd.",
+      period: "2022 - 2025",
+      bullets: [
+        "Worked on cloud-based contact center migration projects for BFSI clients using Amazon Connect, Lambda, Lex, S3, Bedrock, DynamoDB, SES, and SQS.",
+        "Designed and implemented IVR enhancements including post-call surveys, call back options, and Lex bot integrations.",
+        "Developed serverless applications with AWS Lambda (Node.js) and API Gateway for cost efficiency and scalability.",
+        "Built an AI-based email classifier leveraging AWS Bedrock, automating categorization and improving operational efficiency.",
+      ],
+    },
+    {
+      role: "Senior Software Developer",
+      company: "Xornor Technology Pvt. Ltd.",
+      period: "2018 - 2022",
+      bullets: [
+        "Designed and developed REST APIs using Node.js/Express.js with MySQL ensuring performance and security.",
+        "Built IoT applications (Enertics) using Angular frontend, Node.js microservices, and Flask for trend prediction.",
+        "Migrated a legacy JavaScript web app to Angular for improved UI/UX and maintainability.",
+        "Integrated multiple payment systems (Stripe, PayPal, Apple In-App Purchases).",
+        "Developed hybrid mobile apps with Ionic and native Android apps in Core Java.",
+        "Enhanced enterprise apps with new features and 3rd-party integrations (Calendars, RFID, Barcode, OCR).",
+      ],
+    },
+    {
+      role: "Application Developer",
+      company: "Trius Infotech Pvt. Ltd.",
+      period: "2017 - 2018",
+      bullets: [
+        "Developed cross-platform mobile applications using Ionic Framework.",
+        "Integrated payment gateways (PayPal, Stripe, Razorpay) and In-App Purchases.",
+        "Added social login/authentication, push notifications, and Google Maps API.",
+        "Delivered apps like Payr, Vlocator, and Salhaa with improved usability and engagement.",
+      ],
+    },
+    {
+      role: "Hybrid Mobile Application Developer",
+      company: "MediaOnCloud Pvt. Ltd.",
+      period: "2016 - 2017",
+      bullets: [
+        "Developed hybrid mobile apps using Ionic, PhoneGap, and Cordova.",
+        "Built responsive UIs with JavaScript, jQuery, HTML5, and CSS3.",
+        "Contributed to retail, social, and business apps with full-stack features.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      title: "Microservices NodeJS / GraphQL Api's",
+      desc: "Node.js backend powered by GraphQL for building flexible, efficient, and scalable APIs. It demonstrates how to design and implement GraphQL queries, mutations, and schema using modern Node.js best practices.",
+      link: "https://github.com/DEVRAJ13/Nodejs-GraphQL-API-s",
+    },
+    {
+      title: "organizational RAG Chatbot PoC",
+      desc: "Flask + LangChain + Ollama RAG App A lightweight Retrieval-Augmented Generation app with Flask, LangChain, and Ollama. Supports document upload (PDF/TXT/CSV), chunking, embeddings with HuggingFace, ChromaDB storage, and secure API access with keys.",
+      link: "#",
+    },
+  ],
+  education: [
+    {
+      degree: "B.Tech – Computer Science and Engineering",
+      institution: "Himachal Pradesh Technical University",
+      period: "2012 - 2016",
+    },
+    {
+      degree: "Science (+2)",
+      institution: "Himachal Pradesh Education Board",
+      period: "2010 - 2012",
+    },
+    {
+      degree: "Matriculation",
+      institution: "Himachal Pradesh Education Board",
+      period: "2007 - 2008",
+    },
+  ],
+  certifications: [
+    "AWS Cloud Practitioner Certification",
+    "Best Project – Green Hills Engineering College (2016)",
+    "Android Application Development (Click Labs, 2015)",
+    "Certification of Participation – ETHNUS (2015)",
+    "Java Project Training – HCL (2014)",
+    "Computer Teacher Training – SSA Trust (2011–2012)",
+  ],
+};
